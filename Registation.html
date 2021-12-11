@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styleeee.css">
+</head>
+<body>
+    <div class="regf"><h1>REGISTATION FORM</h1></div>
+    <div class="main">
+
+        <form action="insertt.php" method="post">
+            <div id="nam">
+            <h2 class="NAME">NAME:</h2>
+            <input class="firstname" type="text" name="fname" required><br>
+            <label class="fname">First name:</label>
+
+            <input class="lastname" type="text" name="lname" required>
+            <label class="lname">Last name:</label> 
+            </div>
+
+            <h2 class="NAME">Nationality :</h2>
+            <input class="cname" type="text" name="cname" required>
+            <br>
+
+            <h2 class="NAME">EMAIL:</h2>
+            <input class="email" type="email" name="email" required><br>
+            <label class="mail">Enter Your Email</label> 
+            <br>
+            
+            <h2 class="NAME">Phone :</h2>
+            <select class="Areacode" name="area_code" required>
+                <option disabled="disabled" selected="selected">Area code</option>
+                <option value="+91">+91</option>
+                <option value="+11">+11</option>
+                <option value="+21">+21</option>
+                <option value="033">033</option>
+                <option value="+51">+51</option>
+            </select>
+
+            <input class="phone" type="tel" name="phone" required>
+
+            <h2 class="NAME">Places you want to visit :</h2>
+            <select class="Option" name="places" required>
+                <option disabled="disabled" selected="selected">Choose Option</option>
+                <option value="KOLKATA">KOLKATA</option>
+                <option value="MUMBAI">MUMBAI</option>
+                <option value="DELHI">DELHI</option>
+                <option value="KERALA">KERALA</option>
+                <option value="KASHMIR">KASHMIR</option>
+            </select> 
+
+            <h2 id="Coustomer">Are You Indian? </h2>
+            <input class="radio-one" type="radio" name="resident" value="yes" required>Yes
+            <input class="radio-two" type="radio" name="resident" value="no" required>No
+
+            <br><br>
+            <button type="submit" name="submit" class="submit">Register</button>
+        </form>
+        <!-- INSERT INTO `visitors` (`fname`, `lname`, `cname`, `email`, `area_code`, `phone`, `Places`, `resident`) VALUES ('Sushruta', 'Patra', 'Indian', 'sushrutamail@gmail.com', '+91', '9064985857', 'KOLKATA', 'yes'); -->
+    </div>
+</body>
+ </html>

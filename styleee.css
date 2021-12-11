@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/taz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%; 
+    height: 10%;
+    padding: 1% 4%;
+    background-color:rgba(51, 49, 49, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase; 
+}
+nav:hover{
+    color: rgb(187, 184, 184);
+}
+#ind{
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.logo{
+    width: 10%;
+    text-align: left;
+    font-weight: bold; 
+    color: rgb(84, 183, 230);
+}
+.logo:hover{
+    color: blue;
+}
+.menu{
+    width: 40%;
+    display: flex; 
+    justify-content: space-around;
+    text-decoration: none;
+}
+a{
+    width: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-btn1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    padding: 10% 0% 3% 0%; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    text-shadow: 2px 2px 3px rgb(221, 10, 10);
+    align-items: center;
+}
+.btn-btn2{
+    margin: 1px 0 1px 0;
+    padding-top: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 1500;
+    color: black;
+    text-shadow: 2px 2px 3px white;
+    text-align: center;
+}
+.btn-btn3{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 3%;
+    color: black;
+    /* margin-bottom: 20px; */
+    text-shadow: 2px 2px 3px white;
+    text-align: center;
+    /* padding-bottom: 10%; */
+}
+.btnone{
+    font-size: 40px;
+    font-weight: 800;
+    font-weight: bold;
+    color: rgb(3, 6, 204);
+    text-underline-position: below;
+    text-shadow: 3px 3px 3px white ;
+    text-align: center;
+}
+.btntwo{
+    font-size: 50px;
+    /* font-weight: 800; */
+    font-weight: bold;
+    color: rgb(223, 6, 6);
+    text-underline-position: below;
+    text-shadow: 3px 3px 3px white ;
+}
+btntwo:hover{
+    color:black;
+}
+.btn-btn4{
+    text-align: center;
+    padding-top: 0%;
+}
+@keyframes slidein{
+    0%{content: "KOLKATA";}
+    20%{content: "BANGALORE";}
+    40%{content: "MUMBAI";}
+    60%{content: "GUJRAT";} 
+    80%{content: "DELHI";}
+    100%{content: "KERALA";}
+}
+.change:after{
+    content: '';
+    animation: slidein 5s infinite linear;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 1500;
+    color: black;
+    text-shadow: 2px 2px 3px white;
+    color: rgb(14, 13, 13);
+}
+.con{
+    text-decoration: none;
+    color:white;
+}
+.abo{
+    text-decoration: none;
+    color:white;
+}
+.hom{
+    text-decoration: none;
+    color:white;
+}
+.gal{
+    text-decoration: none;
+    color:white;
+}
